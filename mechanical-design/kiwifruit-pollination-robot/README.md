@@ -26,6 +26,13 @@ I worked on Creo-based component modeling, mechanical layout, mounting solutions
 </tr>
 </table>
 
+## Control System Architecture
+
+The robot integrates a UR5 robotic arm, Livox MID-70 LiDAR,
+RGB-D camera, industrial computer, and PLC-based control system.
+
+![Robot Control System Architecture](images/control-system-diagram.jpeg)
+
 ## Mechanical Workspace
 
 <table>
@@ -51,11 +58,6 @@ I also annotated kiwifruit flowers in orchard imagery for visual detection exper
 
 *Example images showing flower detection annotations; this figure is not presented as a stand-alone model performance evaluation.*
 
-## Additional Materials
-
-![Robot System and Control Architecture](images/control-system-diagram.jpeg)
-
-<!-- SLAM_DEMO_START -->
 ## LiDAR Localization Demo
 
 Real-time LiDAR localization using the Livox MID-70 sensor.
