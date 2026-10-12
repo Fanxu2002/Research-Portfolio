@@ -53,23 +53,14 @@ I also annotated kiwifruit flowers in orchard imagery for visual detection exper
 
 ## Additional Materials
 
-- [Robot system and control architecture](images/control-system-diagram.jpeg)
-- [Field layout](images/field-layout.png)
-- [Flower CAD models](images/flower-cad-view-1.jpeg)
-- [Flower close-up](images/kiwifruit-flower.jpeg)
-
-*Project note: Photos and diagrams are from the provided team project materials. This page emphasizes my stated individual responsibilities, rather than attributing the entire robot or all supporting experiments to one person.*
+![Robot System and Control Architecture](images/control-system-diagram.jpeg)
 
 <!-- SLAM_DEMO_START -->
 ## LiDAR Localization Demo
 
-Real-time LiDAR-based localization using a Livox MID-70 sensor.
+Real-time LiDAR localization using the Livox MID-70 sensor.
 
-<a href="videos/slam.mp4">
-  <img src="images/robot-field-prototype.jpeg"
-       alt="LiDAR Localization Demo"
-       width="650">
-</a>
+<video src="videos/slam.mp4" controls width="100%"></video>
 
-[Watch the SLAM demonstration](videos/slam.mp4)
+[Watch the demonstration](videos/slam.mp4)
 <!-- SLAM_DEMO_END -->
