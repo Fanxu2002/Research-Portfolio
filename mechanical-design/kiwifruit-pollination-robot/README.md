@@ -42,13 +42,19 @@ RGB-D camera, industrial computer, and PLC-based control system.
 </tr>
 </table>
 
-## LiDAR Localization and Field Experiments
+## SLAM — LiDAR-Based Localization and Mapping
 
 I explored real-time localization of the mobile robot using **Livox MID-70 LiDAR**, in support of operation in the repetitive structure of kiwifruit orchards.
 
 ![Kiwifruit orchard field site](images/orchard-layout.jpg)
 
 *Representative orchard environment and row geometry.*
+
+### SLAM Demonstration
+
+Real-time LiDAR-based SLAM using the Livox MID-70 sensor.
+
+[Watch the SLAM demonstration](videos/slam.mp4)
 
 ## Kiwifruit Flower Annotation
 
@@ -57,8 +63,6 @@ I also annotated kiwifruit flowers in orchard imagery for visual detection exper
 ![Annotated flowers](images/flower-detection-examples.jpeg)
 
 *Example images showing flower detection annotations; this figure is not presented as a stand-alone model performance evaluation.*
-
-## LiDAR Localization Demo
 
 Real-time LiDAR localization using the Livox MID-70 sensor.
 
