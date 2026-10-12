@@ -64,3 +64,13 @@ Real-time LiDAR localization using the Livox MID-70 sensor.
 
 [Watch the demonstration](videos/slam.mp4)
 <!-- SLAM_DEMO_END -->
+
+<!-- ROBOT_WORKING_DEMO_START -->
+## Robot Working Demo
+
+Field demonstration of the kiwifruit pollination robot.
+
+<video src="videos/working%20video.mp4" controls width="100%"></video>
+
+[Watch the robot working video](videos/working%20video.mp4)
+<!-- ROBOT_WORKING_DEMO_END -->
