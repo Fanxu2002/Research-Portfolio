@@ -50,12 +50,6 @@ I explored real-time localization of the mobile robot using **Livox MID-70 LiDAR
 
 *Representative orchard environment and row geometry.*
 
-### SLAM Demonstration
-
-Real-time LiDAR-based SLAM using the Livox MID-70 sensor.
-
-[Watch the SLAM demonstration](videos/slam.mp4)
-
 ## Kiwifruit Flower Annotation
 
 I also annotated kiwifruit flowers in orchard imagery for visual detection experiments.
