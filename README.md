@@ -9,7 +9,7 @@ surroundings.
 
 ---
 
-## Mechanical Design
+## Selected Projects
 
 Some of my undergraduate engineering projects at Northwest A&F
 University, covering mechanical design, prototyping, automation,
