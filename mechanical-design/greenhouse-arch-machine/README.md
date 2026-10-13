@@ -1,190 +1,164 @@
 # Intelligent Greenhouse Arch Support Insertion Machine
 
-**Mechanical Design · Material Testing · ANSYS Simulation · Field Prototype**  
-*Undergraduate Engineering Project | Northwest A&F University*  
-*25th China Robot and Artificial Intelligence Competition*
+**Mechanical Design · Automated Rod Feeding · Material Testing · ANSYS Simulation**  
+*Undergraduate team project | Northwest A&F University | Robotic competition project*
 
 ## Project Overview
 
-Building small greenhouse tunnels requires repeated placement, bending, and insertion of flexible support rods. Doing this manually can be time-consuming and physically demanding, especially when many arches must be installed at consistent spacing and depth.
+Small agricultural tunnels are commonly supported by flexible rods bent into arches and inserted into the soil. Installing these supports manually requires repetitive rod handling, bending, and placement. This project developed a mobile machine to automate the handling and installation of greenhouse support rods.
 
-Our team developed a mobile machine designed to automate rod feeding, arch forming, and support-rod insertion. This page presents the **mechanical design**, **material characterization**, **wind-resistance analysis**, and **prototype demonstrations** from the project.
+The project combines **mechanical mechanism design**, **support-rod material evaluation**, **wind-resistance analysis**, and **prototype testing**. The sections below describe the engineering design and results of the team project.
 
-## 1. Mechanical Design and Operating Principle
+## 1. Mechanical Structure and Working Principle
 
-The machine integrates a mobile frame, rod storage and feeding components, an arch-forming mechanism, and an insertion device. Its operating sequence moves a support rod from storage, advances it into position, and inserts the formed arch into the soil.
+### 1.1 Overall Mechanical Design
 
-<p align="center"><img src="images/jigou_white.png" alt="Overall machine CAD" width="85%"></p>
+The machine integrates a mobile chassis, a rod storage and feeding unit, a rod transfer and gripping assembly, an arch-forming guide, and a vertical insertion mechanism. Its main operating sequence is **rod feeding → pickup and gripping → arch forming → transfer → insertion into soil**. This arrangement supports repeated installation of small-tunnel arches along a planting row.
 
-<!-- COMPONENTS_MACHINE_START -->
+<p align="center"><img src="images/jigou_white.png" alt="CAD assembly of the greenhouse arch support insertion machine" width="86%"></p>
+<p align="center"><sub>Overall CAD assembly showing the machine, planting rows, and greenhouse arches.</sub></p>
+
 <details>
-<summary>View components — Overall Machine Components</summary>
-<table>
-<tr><th>No.</th><th>Component</th></tr>
-<tr><td>1</td><td>Mulch Film</td></tr>
-<tr><td>2</td><td>Greenhouse Support Rod</td></tr>
-<tr><td>3</td><td>Crops</td></tr>
-<tr><td>4</td><td>Rod Guiding Device</td></tr>
-<tr><td>5</td><td>Tripod</td></tr>
-<tr><td>6</td><td>RTK Positioning System</td></tr>
-<tr><td>7</td><td>Rod Transfer Frame</td></tr>
-<tr><td>8</td><td>Load-Carrying Platform</td></tr>
-<tr><td>9</td><td>Wheel Drive Motor</td></tr>
-<tr><td>10</td><td>Rod Holding End-Effector</td></tr>
-<tr><td>11</td><td>Control System</td></tr>
-<tr><td>12</td><td>Plastic Molding Cavity</td></tr>
-<tr><td>13</td><td>Machine Frame</td></tr>
-<tr><td>14</td><td>Air Pump</td></tr>
-</table>
+<summary>View components — Overall machine (1–14)</summary>
+
+| No. | Component | No. | Component |
+|---:|---|---:|---|
+| 1 | Mulch film | 8 | Load-carrying platform |
+| 2 | Greenhouse support rod | 9 | Wheel hub motor |
+| 3 | Crops | 10 | Rod-gripping end effector |
+| 4 | Rod guide device | 11 | Control system |
+| 5 | Tripod | 12 | Plastic forming cavity |
+| 6 | RTK positioning system | 13 | Machine frame |
+| 7 | Rod transfer gantry | 14 | Air pump |
+
 </details>
-<!-- COMPONENTS_MACHINE_END -->
 
-
-*Overall machine concept and arrangement of the planting rows and greenhouse arches.*
+### 1.2 Key Mechanisms
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<img src="images/jingan_white.png" alt="Rod feeding mechanism CAD design">
+<strong>Rod Feeding Mechanism</strong>
 
-<sub>Rod storage and feeding mechanism</sub>
+<p>The inclined guide plate directs stored rods toward a grooved wheel. A stepper motor and reducer rotate the wheel to advance the rods sequentially toward the pickup position.</p>
 
-<!-- COMPONENTS_FEEDING_START -->
+<img src="images/jingan_white.png" alt="Rod storage and grooved-wheel feeding mechanism" width="100%">
+
 <details>
-<summary>View components — Rod Feeding Mechanism Components</summary>
+<summary>View feeding components (1–5)</summary>
 <table>
 <tr><th>No.</th><th>Component</th></tr>
-<tr><td>1</td><td>Rod Alignment Plate</td></tr>
-<tr><td>2</td><td>Support Rod</td></tr>
-<tr><td>3</td><td>Gear Reducer</td></tr>
-<tr><td>4</td><td>Grooved Wheel</td></tr>
-<tr><td>5</td><td>Stepper Motor</td></tr>
+<tr><td>1</td><td>Rod alignment plate</td></tr>
+<tr><td>2</td><td>Support rod</td></tr>
+<tr><td>3</td><td>Gear reducer</td></tr>
+<tr><td>4</td><td>Grooved wheel</td></tr>
+<tr><td>5</td><td>Stepper motor</td></tr>
 </table>
 </details>
-<!-- COMPONENTS_FEEDING_END -->
 
 </td>
 <td width="50%" valign="top">
 
-<img src="images/qianchazhuangzhi_white.png" alt="Arch insertion mechanism">
+<strong>Arch Forming and Insertion Mechanism</strong>
 
-<sub>Arch forming and insertion mechanism</sub>
+<p>After pickup, the rod is gripped and shaped around a forming guide. The transfer and vertical-motion assemblies bring the formed arch to its insertion position and press its ends into the soil.</p>
 
-<!-- COMPONENTS_INSERTION_START -->
+<img src="images/qianchazhuangzhi_white.png" alt="Arch forming and soil-insertion mechanism" width="100%">
+
 <details>
-<summary>View components — Rod Insertion Mechanism Components</summary>
+<summary>View insertion components (1–5)</summary>
 <table>
 <tr><th>No.</th><th>Component</th></tr>
-<tr><td>1</td><td>Vertical Transfer Frame</td></tr>
-<tr><td>2</td><td>Pneumatic Cylinder</td></tr>
-<tr><td>3</td><td>Arch Forming Cavity</td></tr>
-<tr><td>4</td><td>Rod Gripping End-Effector</td></tr>
-<tr><td>5</td><td>Greenhouse Support Rod</td></tr>
+<tr><td>1</td><td>Vertical transfer frame</td></tr>
+<tr><td>2</td><td>Pneumatic cylinder</td></tr>
+<tr><td>3</td><td>Arch-forming cavity</td></tr>
+<tr><td>4</td><td>Rod-gripping end effector</td></tr>
+<tr><td>5</td><td>Greenhouse support rod</td></tr>
 </table>
 </details>
-<!-- COMPONENTS_INSERTION_END -->
 
 </td>
 </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
-### Mechanism Demonstrations
+### 1.3 Mechanism Demonstrations
 
 <table>
 <tr>
-<td width="50%"><img src="images/jingan.gif" alt="Rod feeding demonstration"><br><sub>Rod feeding mechanism</sub></td>
-<td width="50%"><img src="images/qiancha.gif" alt="Arch insertion demonstration"><br><sub>Arch insertion operation</sub></td>
+<td width="50%" valign="top"><img src="images/jingan.gif" alt="Rod feeding mechanism operating" width="100%"><br><sub>Rod feeding and positioning.</sub></td>
+<td width="50%" valign="top"><img src="images/qiancha.gif" alt="Arch support gripping and insertion mechanism operating" width="100%"><br><sub>Gripping and insertion mechanism.</sub></td>
 </tr>
 </table>
 
 ## 2. Support Rod Material Testing
 
-The project compared **fiberglass** and **polytetrafluoroethylene (PTFE)** support rods through shear, axial compression, and bending tests. Three experimental runs were conducted for each plotted test condition. The force–displacement curves show the response of the specimens as load was applied.
+Fiberglass and polytetrafluoroethylene (**PTFE**) rods were evaluated as candidate greenhouse support materials. The project used **shear, axial compression, and bending tests**, with three repetitions per condition, to compare load-bearing behavior and mechanical strength.
 
-### Experimental Setup
+### 2.1 Experimental Setup
 
-![Shear test setup and specimen](images/jianqieshiyan.png)
+<table>
+<tr>
+<td width="33%"><img src="images/jianqieshiyan.png" width="100%" alt="Shear testing setup"><br><sub>Shear test</sub></td>
+<td width="33%"><img src="images/yasuoshiyan.png" width="100%" alt="Axial compression testing setup"><br><sub>Axial compression test</sub></td>
+<td width="33%"><img src="images/wanqushiyan.png" width="100%" alt="Bending testing setup"><br><sub>Bending test</sub></td>
+</tr>
+</table>
 
-*Shear testing: specimen setup and condition after failure.*
+### 2.2 Load–Displacement Results
 
-![Axial compression test setup and specimen](images/yasuoshiyan.png)
+Each curve compares **three repeated tests** (rather than three materials). The two columns below correspond to the two candidate rod materials.
 
-*Axial compression testing: specimen setup and condition after failure.*
+| Test | Fiberglass | PTFE |
+|---|---|---|
+| **Shear** | <img src="images/a.png" width="100%" alt="Fiberglass shear load-displacement curves"> | <img src="images/b.png" width="100%" alt="PTFE shear load-displacement curves"> |
+| **Axial compression** | <img src="images/c.png" width="100%" alt="Fiberglass compression load-displacement curves"> | <img src="images/d.png" width="100%" alt="PTFE compression load-displacement curves"> |
+| **Bending** | <img src="images/e.png" width="100%" alt="Fiberglass bending load-displacement curves"> | <img src="images/f.png" width="100%" alt="PTFE bending load-displacement curves"> |
 
-![Bending test setup and specimen](images/wanqushiyan.png)
+### 2.3 Material Comparison
 
-*Bending testing: specimen setup and condition after failure.*
-
-### Force–Displacement Curves
-
-| Fiberglass | PTFE |
-|:--:|:--:|
-| ![Shear test: fiberglass](images/a.png) | ![Shear test: PTFE](images/b.png) |
-| **Shear** | **Shear** |
-| ![Axial compression test: fiberglass](images/c.png) | ![Axial compression test: PTFE](images/d.png) |
-| **Axial compression** | **Axial compression** |
-| ![Bending test: fiberglass](images/e.png) | ![Bending test: PTFE](images/f.png) |
-| **Bending** | **Bending** |
-
-*The black dotted, red solid, and blue dashed curves represent the first, second, and third experimental runs, respectively.*
-
-### Material Comparison
-
-| Property | Fiberglass | PTFE |
-|:--|--:|--:|
+| Average strength | Fiberglass | PTFE |
+|---|---:|---:|
 | Shear strength | 151.27 MPa | 57.54 MPa |
 | Bending strength | 952.94 MPa | 25.40 MPa |
 | Compressive strength | 294.06 MPa | 161.69 MPa |
 
-*Average values reported in the project materials.* Fiberglass showed higher measured strength in all three tests and was selected as the support-rod material for the studied greenhouse design.
+Fiberglass exhibited higher measured strength across all three tests and was selected for subsequent greenhouse support-rod structural analysis. The results inform **material selection under the tested conditions**, rather than establishing the performance of every possible fiberglass or PTFE product.
 
-![Material strength comparison](images/cailiaoduibijieguo.png)
+## 3. Wind Resistance and Insertion Depth Analysis
 
-## 3. Wind Resistance and Insertion Depth
+The selected fiberglass support rods were evaluated using **ANSYS finite element analysis**. The study examined the response of a greenhouse arch under lateral wind loading and investigated the influence of the rod insertion depth on its equivalent stress and elastic strain.
 
-The mechanical properties of the selected fiberglass rods were used in an **ANSYS structural analysis** to examine how wind loading affects the greenhouse arch. The analysis considered how different insertion depths influence the structure's stress and deformation.
+### 3.1 Finite Element Model
 
-![Greenhouse arch under lateral wind loading](images/gongpengcemianchuizhi%20feng_white.png)
+The analysis used material parameters reported for the fiberglass rods, including an elastic modulus of **14.864 GPa**, Poisson's ratio **0.22**, and shear modulus **6.091 GPa**. The reported design wind pressure was **252 N/m²**.
 
-*Simplified greenhouse arch geometry and lateral wind-loading direction.*
+<p align="center"><img src="images/anasy.png" alt="ANSYS finite element meshing, stress, and deformation results" width="94%"></p>
+<p align="center"><sub>Finite element model and selected ANSYS analysis results.</sub></p>
 
-![ANSYS structural simulation results](images/anasy.png)
+### 3.2 Selecting the Insertion Depth
 
-*Finite-element model and representative stress/deformation results.*
+The study compared rod insertion depths from **8 to 20 cm**. As the insertion depth increased, the simulated equivalent stress and elastic strain generally decreased. The improvement became less pronounced beyond approximately **13 cm**, which was selected as the target insertion depth for the studied geometry and loading conditions.
 
-![Comparison of insertion depths](images/13cmxuanze.png)
+<p align="center"><img src="images/13cmxuanze.png" alt="Relationship between rod insertion depth, equivalent stress, and elastic strain" width="90%"></p>
+<p align="center"><sub>Effect of insertion depth on the simulated structural response.</sub></p>
 
-*Comparison of equivalent elastic strain and equivalent stress across the studied insertion depths.*
-
-For the geometry and loading assumptions considered in the project, a support-rod insertion depth of approximately **13 cm (130 mm)** was selected. This is a project-specific design parameter, rather than a universal value for all soils or wind conditions.
+**Design outcome: 13 cm target soil insertion depth**, under the assumptions of the reported simulation. This is a project-specific design decision, not a universal installation depth for all soils or wind conditions.
 
 ## 4. Prototype and Field Demonstration
 
-After mechanical design and analysis, the team assembled a working prototype and tested it in the field. The photographs and demonstrations below show the machine and its operation.
+A physical prototype was assembled and used in field trials to examine machine operation and greenhouse arch installation. The photographs and demonstrations below show the relationship between the proposed mechanism and the realized machine.
 
 <table>
 <tr>
-<td width="50%"><img src="images/yangji.png" alt="Greenhouse arch machine prototype"><br><sub>Assembled prototype</sub></td>
-<td width="50%"><img src="images/yangji%20tianjian.png" alt="Machine in agricultural field"><br><sub>Field prototype and installed greenhouse arches</sub></td>
+<td width="50%"><img src="images/yangji.png" alt="Assembled greenhouse arch insertion machine" width="100%"><br><sub>Prototype assembly.</sub></td>
+<td width="50%"><img src="images/yangji%20tianjian.png" alt="Greenhouse arch insertion machine in the field" width="100%"><br><sub>Field prototype and installed arches.</sub></td>
 </tr>
 </table>
 
-### Field Demonstration
-
-![Field operation demonstration](images/image83.gif)
-
-*Demonstration of the prototype in operation.*
+<p align="center"><img src="images/image83.gif" alt="Prototype moving in a field demonstration" width="48%"></p>
+<p align="center"><sub>Field mobility demonstration.</sub></p>
 
 ---
 
-*Figures, test results, and simulation results are from the project materials. The machine was developed as a team project.*
+*Project documentation: Figures and numerical results are drawn from the team's greenhouse arch insertion machine project materials and associated mechanical design and experimental study. Individual contributions should be described separately where applicable.*
