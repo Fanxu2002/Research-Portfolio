@@ -16,70 +16,86 @@ The machine integrates a mobile frame, rod storage and feeding components, an ar
 
 <p align="center"><img src="images/jigou_white.png" alt="Overall machine CAD" width="85%"></p>
 
+<!-- COMPONENTS_MACHINE_START -->
+<details>
+<summary>View components — Overall Machine Components</summary>
+<table>
+<tr><th>No.</th><th>Component</th></tr>
+<tr><td>1</td><td>Mulch Film</td></tr>
+<tr><td>2</td><td>Greenhouse Support Rod</td></tr>
+<tr><td>3</td><td>Crops</td></tr>
+<tr><td>4</td><td>Rod Guiding Device</td></tr>
+<tr><td>5</td><td>Tripod</td></tr>
+<tr><td>6</td><td>RTK Positioning System</td></tr>
+<tr><td>7</td><td>Rod Transfer Frame</td></tr>
+<tr><td>8</td><td>Load-Carrying Platform</td></tr>
+<tr><td>9</td><td>Wheel Drive Motor</td></tr>
+<tr><td>10</td><td>Rod Holding End-Effector</td></tr>
+<tr><td>11</td><td>Control System</td></tr>
+<tr><td>12</td><td>Plastic Molding Cavity</td></tr>
+<tr><td>13</td><td>Machine Frame</td></tr>
+<tr><td>14</td><td>Air Pump</td></tr>
+</table>
+</details>
+<!-- COMPONENTS_MACHINE_END -->
+
+
 *Overall machine concept and arrangement of the planting rows and greenhouse arches.*
 
 <table>
 <tr>
-<td width="50%"><img src="images/jingan_white.png" alt="Rod feeding mechanism CAD design"><br><sub>Rod storage and feeding mechanism</sub></td>
-<td width="50%"><img src="images/qianchazhuangzhi_white.png" alt="Arch insertion mechanism"><br><sub>Arch forming and insertion mechanism</sub></td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
-<!-- COMPONENTS_INSERTION_START -->
-<details>
-<summary>View components — Rod Insertion Mechanism Components</summary>
+<img src="images/jingan_white.png" alt="Rod feeding mechanism CAD design">
 
-| No. | Component |
-|---|---|
-| 1 | Vertical Transfer Frame |
-| 2 | Pneumatic Cylinder |
-| 3 | Arch Forming Cavity |
-| 4 | Rod Gripping End-Effector |
-| 5 | Greenhouse Support Rod |
-
-</details>
-<!-- COMPONENTS_INSERTION_END -->
-
+<sub>Rod storage and feeding mechanism</sub>
 
 <!-- COMPONENTS_FEEDING_START -->
 <details>
 <summary>View components — Rod Feeding Mechanism Components</summary>
-
-| No. | Component |
-|---|---|
-| 1 | Rod Alignment Plate |
-| 2 | Support Rod |
-| 3 | Gear Reducer |
-| 4 | Grooved Wheel |
-| 5 | Stepper Motor |
-
+<table>
+<tr><th>No.</th><th>Component</th></tr>
+<tr><td>1</td><td>Rod Alignment Plate</td></tr>
+<tr><td>2</td><td>Support Rod</td></tr>
+<tr><td>3</td><td>Gear Reducer</td></tr>
+<tr><td>4</td><td>Grooved Wheel</td></tr>
+<tr><td>5</td><td>Stepper Motor</td></tr>
+</table>
 </details>
 <!-- COMPONENTS_FEEDING_END -->
 
+</td>
+<td width="50%" valign="top">
 
-<!-- COMPONENTS_MACHINE_START -->
+<img src="images/qianchazhuangzhi_white.png" alt="Arch insertion mechanism">
+
+<sub>Arch forming and insertion mechanism</sub>
+
+<!-- COMPONENTS_INSERTION_START -->
 <details>
-<summary>View components — Overall Machine Components</summary>
-
-| No. | Component |
-|---|---|
-| 1 | Mulch Film |
-| 2 | Greenhouse Support Rod |
-| 3 | Crops |
-| 4 | Rod Guiding Device |
-| 5 | Tripod |
-| 6 | RTK Positioning System |
-| 7 | Rod Transfer Frame |
-| 8 | Load-Carrying Platform |
-| 9 | Wheel Drive Motor |
-| 10 | Rod Holding End-Effector |
-| 11 | Control System |
-| 12 | Plastic Molding Cavity |
-| 13 | Machine Frame |
-| 14 | Air Pump |
-
+<summary>View components — Rod Insertion Mechanism Components</summary>
+<table>
+<tr><th>No.</th><th>Component</th></tr>
+<tr><td>1</td><td>Vertical Transfer Frame</td></tr>
+<tr><td>2</td><td>Pneumatic Cylinder</td></tr>
+<tr><td>3</td><td>Arch Forming Cavity</td></tr>
+<tr><td>4</td><td>Rod Gripping End-Effector</td></tr>
+<tr><td>5</td><td>Greenhouse Support Rod</td></tr>
+</table>
 </details>
-<!-- COMPONENTS_MACHINE_END -->
+<!-- COMPONENTS_INSERTION_END -->
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
 
 
 ### Mechanism Demonstrations
