@@ -1,99 +1,61 @@
 # Research Portfolio
 
-A collection of my projects in mechanical engineering, robotics,
-SLAM, computer vision, and 3D reconstruction.
-
-I enjoy building things, from mechanical structures and real-world
-robotic systems to algorithms that help robots understand their
-surroundings.
+I enjoy building things, from mechanical systems and real-world robots to SLAM algorithms and 3D reconstruction. This repository brings together selected projects from my undergraduate and graduate research.
 
 ---
 
 ## Selected Projects
 
-Some of my undergraduate engineering projects at Northwest A&F
-University, covering mechanical design, prototyping, automation,
-and field experiments.
+### 1. Greenhouse Arch Insertion Machine
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="mechanical-design/greenhouse-arch-machine/images/yangji.png" alt="Greenhouse arch insertion machine prototype" width="620">
 
-### Kiwifruit Pollination Robot
+An agricultural machine designed to automate the feeding, forming, and insertion of flexible greenhouse support rods. My work focused on mechanical structure design, prototype fabrication, material testing, and finite element analysis of greenhouse arches under lateral wind loading.
 
-<img src="mechanical-design/kiwifruit-pollination-robot/images/robot-field-prototype.jpeg" width="100%">
-
-A robotic pollination platform integrating a UR5 robotic arm,
-customized mechanical components, and LiDAR-based localization.
-
-**Creo CAD · 3D Printing · Robotics · LiDAR SLAM**
-
-[View Project](mechanical-design/kiwifruit-pollination-robot/README.md)
-
-</td>
-<td width="50%" valign="top">
-
-### Greenhouse Arch Insertion Machine
-
-<img src="mechanical-design/greenhouse-arch-machine/images/yangji.png" width="100%">
-
-An agricultural machine for automated greenhouse arch
-support insertion, involving mechanical design, material
-testing, and structural analysis.
-
-**Mechanical Design · Material Testing · ANSYS**
+**Mechanical Design · Prototype Fabrication · Material Testing · ANSYS**
 
 [View Project](mechanical-design/greenhouse-arch-machine/README.md)
 
-</td>
-</tr>
-</table>
+### 2. Kiwifruit Pollination Robot
 
----
+<img src="mechanical-design/kiwifruit-pollination-robot/images/robot-field-prototype.jpeg" alt="Kiwifruit pollination robot in an orchard" width="620">
 
-## Robotics and 3D Perception
+A robotic pollination system combining a UR5 robotic arm, a customized end-effector, and a mobile platform. My work included mechanical design using Creo, 3D-printed mounting components, LiDAR-based localization experiments, and kiwifruit flower annotation.
 
-My current interests include SLAM, multi-sensor fusion,
-computer vision, and 3D reconstruction.
+**Creo CAD · 3D Printing · LiDAR SLAM · Agricultural Robotics**
 
-### FR-SLAM
+[View Project](mechanical-design/kiwifruit-pollination-robot/README.md)
 
-A LiDAR-inertial SLAM system developed in C++ and ROS 2,
-including state estimation, scan registration, structural
-constraints, loop closure, and pose graph optimization.
+### 3. Depth-Supervised 3D Gaussian Splatting
+
+*Experimental Research*
+
+Investigating depth regularization for 3D Gaussian Splatting in agricultural environments. I have explored RGB-only and depth-regularized reconstruction, camera pose refinement, and evaluation of rendering quality and geometric accuracy. The focus is on understanding how depth observations can support geometrically consistent 3D reconstruction.
+
+**3D Gaussian Splatting · RGB-D · Computer Vision · 3D Reconstruction**
+
+### 4. FR-SLAM — LiDAR-Inertial SLAM
+
+A C++ and ROS 2 SLAM system for LiDAR-inertial state estimation and mapping. It includes scan registration, local mapping, structural constraints, loop closure detection, and pose graph optimization, with evaluation in agricultural environments.
+
+**C++ · ROS 2 · LiDAR-Inertial Odometry · SLAM**
 
 [View FR-SLAM on GitHub](https://github.com/Fanxu2002/FR_SLAM)
 
-### LiDAR-Inertial-Visual Odometry and 3D Reconstruction
+### 5. LiDAR-Inertial-Visual Odometry (LIVO)
 
-I am currently exploring the integration of LiDAR, IMU,
-and RGB-D cameras for robotic localization and
-3D scene reconstruction, including 3D Gaussian Splatting.
+*Work in Progress*
 
-*Work in progress.*
+Currently developing a multi-sensor odometry system that integrates LiDAR, IMU, and RGB-D camera measurements. The longer-term goal is to connect the localization and mapping system with real-time 3D Gaussian Splatting for visually detailed, geometrically consistent scene reconstruction.
 
----
-
-## Awards and Certificates
-
-Selected awards and certificates from engineering projects,
-competitions, and academic activities.
-
-*Documentation and project materials are being organized.*
+**Multi-Sensor Fusion · RGB-D · LiDAR · IMU · Real-Time 3D Mapping**
 
 ---
 
 ## About Me
 
-I am currently a Master's student in the Field Robotics
-Laboratory at Kyoto University, Japan.
+I am a Master's student in the Field Robotics Laboratory at Kyoto University, Japan. I earned my bachelor's degree in Mechanical Design, Manufacturing and Automation from Northwest A&F University, China.
 
-I received my Bachelor's degree in Mechanical Design,
-Manufacturing and Automation from Northwest A&F University,
-China.
-
-Beyond engineering, I enjoy reading history, exploring new
-places, and meeting people from different backgrounds.
+Outside the lab, I enjoy reading history and exploring Kyoto.
 
 [GitHub Profile](https://github.com/Fanxu2002)
-
