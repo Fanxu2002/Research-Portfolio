@@ -1,46 +1,99 @@
 # Research Portfolio
 
-This repository presents a selection of my work in mechanical design, robotics, SLAM, 3D reconstruction, and related research activities.
+A collection of my projects in mechanical engineering, robotics,
+SLAM, computer vision, and 3D reconstruction.
 
-## Contents
+I enjoy building things, from mechanical structures and real-world
+robotic systems to algorithms that help robots understand their
+surroundings.
 
-### 1. Mechanical Design
-Undergraduate work related to mechanical design, manufacturing, SolidWorks modeling, and agricultural automation.
+---
 
-[View this section](./mechanical-design/README.md)
+## Mechanical Design
 
-### 2. Robotics and Intelligent Perception
-Current work related to SLAM, computer vision, 3D reconstruction, and multi-sensor fusion.
+Some of my undergraduate engineering projects at Northwest A&F
+University, covering mechanical design, prototyping, automation,
+and field experiments.
 
-[View this section](./robotics-perception/README.md)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<!-- KIWI_ROBOT_START -->
 ### Kiwifruit Pollination Robot
 
-Mechanical design and LiDAR localization for an autonomous
-kiwifruit pollination robot.
+<img src="mechanical-design/kiwifruit-pollination-robot/images/robot-field-prototype.jpeg" width="100%">
 
-My contributions include Creo-based mechanical design,
-3D-printed mounting components, Livox MID-70 localization,
-and flower image annotation.
+A robotic pollination platform integrating a UR5 robotic arm,
+customized mechanical components, and LiDAR-based localization.
 
-<a href="mechanical-design/kiwifruit-pollination-robot/README.md">
-  <img src="mechanical-design/kiwifruit-pollination-robot/images/robot-field-prototype.jpeg"
-       alt="Kiwifruit Pollination Robot"
-       width="600">
-</a>
+**Creo CAD · 3D Printing · Robotics · LiDAR SLAM**
 
-[Project Details](mechanical-design/kiwifruit-pollination-robot/README.md)
-· [SLAM Demo](mechanical-design/kiwifruit-pollination-robot/videos/slam.mp4)
-<!-- KIWI_ROBOT_END -->
+[View Project](mechanical-design/kiwifruit-pollination-robot/README.md)
 
-### 3. Awards and Certificates
-Selected awards, certificates, and academic recognitions.
+</td>
+<td width="50%" valign="top">
 
-[View this section](./awards/README.md)
+### Greenhouse Arch Insertion Machine
+
+<img src="mechanical-design/greenhouse-arch-machine/images/yangji.png" width="100%">
+
+An agricultural machine for automated greenhouse arch
+support insertion, involving mechanical design, material
+testing, and structural analysis.
+
+**Mechanical Design · Material Testing · ANSYS**
+
+[View Project](mechanical-design/greenhouse-arch-machine/README.md)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Robotics and 3D Perception
+
+My current interests include SLAM, multi-sensor fusion,
+computer vision, and 3D reconstruction.
+
+### FR-SLAM
+
+A LiDAR-inertial SLAM system developed in C++ and ROS 2,
+including state estimation, scan registration, structural
+constraints, loop closure, and pose graph optimization.
+
+[View FR-SLAM on GitHub](https://github.com/Fanxu2002/FR_SLAM)
+
+### LiDAR-Inertial-Visual Odometry and 3D Reconstruction
+
+I am currently exploring the integration of LiDAR, IMU,
+and RGB-D cameras for robotic localization and
+3D scene reconstruction, including 3D Gaussian Splatting.
+
+*Work in progress.*
+
+---
+
+## Awards and Certificates
+
+Selected awards and certificates from engineering projects,
+competitions, and academic activities.
+
+*Documentation and project materials are being organized.*
+
+---
 
 ## About Me
 
-I am currently a Master's student at Kyoto University, with a background in Mechanical Design, Manufacturing and Automation from Northwest A&F University.
+I am currently a Master's student in the Field Robotics
+Laboratory at Kyoto University, Japan.
 
-My interests include robotics, SLAM, 3D reconstruction, computer vision, and multi-sensor perception.
+I received my Bachelor's degree in Mechanical Design,
+Manufacturing and Automation from Northwest A&F University,
+China.
+
+Beyond engineering, I enjoy reading history, exploring new
+places, and meeting people from different backgrounds.
+
+[GitHub Profile](https://github.com/Fanxu2002)
+
