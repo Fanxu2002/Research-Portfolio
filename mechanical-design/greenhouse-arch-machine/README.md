@@ -14,7 +14,7 @@ Our team developed a mobile machine designed to automate rod feeding, arch formi
 
 The machine integrates a mobile frame, rod storage and feeding components, an arch-forming mechanism, and an insertion device. Its operating sequence moves a support rod from storage, advances it into position, and inserts the formed arch into the soil.
 
-![Overall concept of the greenhouse arch insertion machine](images/jigou_white.png)
+<p align="center"><img src="images/jigou_white.png" alt="Overall machine CAD" width="85%"></p>
 
 *Overall machine concept and arrangement of the planting rows and greenhouse arches.*
 
