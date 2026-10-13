@@ -1,76 +1,76 @@
 # Kiwifruit Pollination Robot
 
-**Mechanical Design · Creo CAD · Prototype Integration · LiDAR Localization**  
-*Undergraduate project | Northwest A&F University*
+**Mechanical Design · Creo CAD · 3D Printing · LiDAR SLAM**  
+*Undergraduate Project | Northwest A&F University*
 
-This project explored a tracked robotic platform for precision pollination in kiwifruit orchards. The system combined a UR5 robotic arm, a pollination end-effector, onboard sensing, and a mobile base for field operation.
+## Project Overview
 
-My main contributions were **mechanical design with Creo**, the design and **3D printing of mounting components** for the nozzle and other hardware, **real-time robot localization work using Livox MID-70 LiDAR**, and **annotation of kiwifruit flowers** for computer-vision experiments. The overall robot and control architecture were developed as part of a team project.
+Pollination is essential for kiwifruit production, influencing fruit set and yield. However, kiwifruit flowers have a relatively short blooming period, leaving farmers with a limited window to complete pollination. Manual pollination is labor-intensive, time-consuming, and costly, especially in large orchards.
 
-## Prototype and Mechanical Design
+To address these challenges, our team developed a robotic pollination system for kiwifruit orchards. The system combines a UR5 robotic arm, a pollination end-effector, a tracked mobile base, and multiple sensors to support field operations.
 
-![CAD view of the robotic pollination platform](images/robot-cad-assembly.jpeg)
+My contributions focused on **mechanical design using Creo**, **designing and 3D-printing mounting components** for the pollination nozzle and other hardware, **LiDAR-based localization using the Livox MID-70**, and **flower image annotation** for computer vision experiments. The overall system was developed collaboratively by the project team.
 
-*Robot system CAD overview, showing the integrated arm, sensors, and tracked platform.*
+## Mechanical Design and Prototyping
 
-![Field prototype of the robot](images/robot-field-prototype.jpeg)
+The mechanical design focused on integrating the robotic arm, sensors, pollination components, and supporting hardware into a mobile platform suitable for orchard environments.
 
-*Assembled robot during orchard experiments.*
+![CAD model of the kiwifruit pollination robot](images/robot-cad-assembly.jpeg)
 
-I worked on Creo-based component modeling, mechanical layout, mounting solutions, and prototype integration. Several fixtures, including nozzle-related mounts, were fabricated using 3D printing.
+*Overall CAD model showing the robot's mechanical structure, UR5 robotic arm, sensor arrangement, and pollination system.*
+
+![Assembled kiwifruit pollination robot](images/robot-field-prototype.jpeg)
+
+*The assembled robot during field experiments in a kiwifruit orchard.*
+
+I worked on component modeling and mechanical layout in Creo, as well as the design and fabrication of mounting fixtures. Several customized components, including brackets for the pollination nozzle, were produced using 3D printing and integrated into the robot.
 
 <table>
 <tr>
-<td width="50%"><img src="images/pollination-nozzle.jpeg" alt="Pollination nozzle and actuator assembly"><br><sub>Pollination end-effector detail</sub></td>
-<td width="50%"><img src="images/lidar-and-robot-arm.jpeg" alt="LiDAR and robot arm integration"><br><sub>Robot arm and sensor integration</sub></td>
+<td width="50%"><img src="images/pollination-nozzle.jpeg" alt="Pollination nozzle assembly"><br><sub>Pollination end-effector and mounting structure</sub></td>
+<td width="50%"><img src="images/lidar-and-robot-arm.jpeg" alt="Robot arm and LiDAR integration"><br><sub>Robotic arm and sensor integration</sub></td>
+</tr>
+</table>
+
+## Mechanical Workspace
+
+The operating workspace of the robotic arm and pollination end-effector was examined to understand their reach and movement relative to the kiwifruit trellis structure.
+
+<table>
+<tr>
+<td width="50%"><img src="images/cad-working-area.jpeg" alt="Robot working envelope"><br><sub>CAD analysis of the working envelope</sub></td>
+<td width="50%"><img src="images/robot-arm-workspace.jpeg" alt="Robot arm operating regions"><br><sub>Robotic arm operating regions</sub></td>
 </tr>
 </table>
 
 ## Control System Architecture
 
-The robot integrates a UR5 robotic arm, Livox MID-70 LiDAR,
-RGB-D camera, industrial computer, and PLC-based control system.
+The robot integrates a UR5 robotic arm, Livox MID-70 LiDAR, an RGB-D camera, an industrial computer, and a PLC-based control system. Together, these components support perception, motion control, and operation of the pollination mechanism.
 
-![Robot Control System Architecture](images/control-system-diagram.jpeg)
+![Robot control system architecture](images/control-system-diagram.jpeg)
 
-## Mechanical Workspace
+*Overview of the control and sensing architecture developed by the project team.*
 
-<table>
-<tr>
-<td width="50%"><img src="images/cad-working-area.jpeg" alt="Mechanical operating envelope"><br><sub>CAD workspace analysis</sub></td>
-<td width="50%"><img src="images/robot-arm-workspace.jpeg" alt="Arm movement quadrants"><br><sub>Arm operating regions</sub></td>
-</tr>
-</table>
+## LiDAR SLAM and Field Experiments
 
-## SLAM — LiDAR-Based Localization and Mapping
+I also worked on LiDAR-based localization using the **Livox MID-70**, exploring how the robot could estimate its position while operating in kiwifruit orchards. The repetitive structure of orchard rows makes localization particularly challenging.
 
-I explored real-time localization of the mobile robot using **Livox MID-70 LiDAR**, in support of operation in the repetitive structure of kiwifruit orchards.
+![Kiwifruit orchard environment](images/orchard-layout.jpg)
 
-![Kiwifruit orchard field site](images/orchard-layout.jpg)
+*The orchard environment used for field experiments, showing the trellis structure and approximate dimensions.*
 
-*Representative orchard environment and row geometry.*
+[Watch the LiDAR SLAM video](videos/slam.mp4)
 
 ## Kiwifruit Flower Annotation
 
-I also annotated kiwifruit flowers in orchard imagery for visual detection experiments.
+As part of the computer vision work, I annotated kiwifruit flowers in orchard images to support the development and evaluation of flower detection methods.
 
-![Annotated flowers](images/flower-detection-examples.jpeg)
+![Kiwifruit flower annotations](images/flower-detection-examples.jpeg)
 
-*Example images showing flower detection annotations; this figure is not presented as a stand-alone model performance evaluation.*
+*Examples of annotated kiwifruit flowers in orchard images.*
 
-Real-time LiDAR localization using the Livox MID-70 sensor.
+## Robot Working Demonstration
 
-<video src="videos/slam.mp4" controls width="100%"></video>
-
-[Watch the demonstration](videos/slam.mp4)
-<!-- SLAM_DEMO_END -->
-
-<!-- ROBOT_WORKING_DEMO_START -->
-## Robot Working Demo
-
-Field demonstration of the kiwifruit pollination robot.
-
-<video src="videos/working%20video.mp4" controls width="100%"></video>
+The following video shows the assembled robot operating during field experiments in a kiwifruit orchard.
 
 [Watch the robot working video](videos/working%20video.mp4)
-<!-- ROBOT_WORKING_DEMO_END -->
