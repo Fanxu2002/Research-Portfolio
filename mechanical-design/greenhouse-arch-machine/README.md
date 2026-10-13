@@ -25,6 +25,63 @@ The machine integrates a mobile frame, rod storage and feeding components, an ar
 </tr>
 </table>
 
+<!-- COMPONENTS_INSERTION_START -->
+<details>
+<summary>View components — Rod Insertion Mechanism Components</summary>
+
+| No. | Component |
+|---|---|
+| 1 | Vertical Transfer Frame |
+| 2 | Pneumatic Cylinder |
+| 3 | Arch Forming Cavity |
+| 4 | Rod Gripping End-Effector |
+| 5 | Greenhouse Support Rod |
+
+</details>
+<!-- COMPONENTS_INSERTION_END -->
+
+
+<!-- COMPONENTS_FEEDING_START -->
+<details>
+<summary>View components — Rod Feeding Mechanism Components</summary>
+
+| No. | Component |
+|---|---|
+| 1 | Rod Alignment Plate |
+| 2 | Support Rod |
+| 3 | Gear Reducer |
+| 4 | Grooved Wheel |
+| 5 | Stepper Motor |
+
+</details>
+<!-- COMPONENTS_FEEDING_END -->
+
+
+<!-- COMPONENTS_MACHINE_START -->
+<details>
+<summary>View components — Overall Machine Components</summary>
+
+| No. | Component |
+|---|---|
+| 1 | Mulch Film |
+| 2 | Greenhouse Support Rod |
+| 3 | Crops |
+| 4 | Rod Guiding Device |
+| 5 | Tripod |
+| 6 | RTK Positioning System |
+| 7 | Rod Transfer Frame |
+| 8 | Load-Carrying Platform |
+| 9 | Wheel Drive Motor |
+| 10 | Rod Holding End-Effector |
+| 11 | Control System |
+| 12 | Plastic Molding Cavity |
+| 13 | Machine Frame |
+| 14 | Air Pump |
+
+</details>
+<!-- COMPONENTS_MACHINE_END -->
+
+
 ### Mechanism Demonstrations
 
 <table>
