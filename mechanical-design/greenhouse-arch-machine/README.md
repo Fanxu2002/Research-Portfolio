@@ -5,9 +5,24 @@
 
 ## Project Overview
 
-Small agricultural tunnels are commonly supported by flexible rods bent into arches and inserted into the soil. Installing these supports manually requires repetitive rod handling, bending, and placement. This project developed a mobile machine to automate the handling and installation of greenhouse support rods.
+Small plastic tunnels are widely used in agriculture to protect crops, improve growing conditions, and extend the growing season. Their frames are commonly formed by bending flexible support rods into arches and inserting both ends into the soil.
 
-The project combines **mechanical mechanism design**, **support-rod material evaluation**, **wind-resistance analysis**, and **prototype testing**. The sections below describe the engineering design and results of the team project.
+Installing these arches manually involves repeatedly picking up rods, bending them, positioning them along planting rows, and pushing them into the ground. The process can be physically demanding and time-consuming, especially over large planting areas where consistent spacing and insertion depth are important.
+
+To address these challenges, our team developed an **intelligent greenhouse arch support insertion machine** that integrates rod storage, sequential feeding, arch forming, and soil insertion on a mobile platform. In addition to mechanical design and prototype fabrication, the project investigated the strength of candidate support-rod materials and the structural response of greenhouse arches to lateral wind loads.
+
+The project aimed to **reduce repetitive manual work, improve the consistency of arch installation, and provide an engineering basis for material selection and insertion-depth design**.
+
+## My Contributions
+
+My main responsibilities in this undergraduate team project were **mechanical structure design, prototype fabrication and assembly, material mechanical testing and analysis, and finite element analysis (FEA) of greenhouse arches under lateral wind loading**.
+
+- **Mechanical design:** Developed the mechanical structure and worked on the rod feeding, arch-forming, and insertion mechanisms.
+- **Prototype fabrication:** Worked on manufacturing, assembling, and integrating the machine's mechanical components.
+- **Material testing and analysis:** Evaluated fiberglass and PTFE rods using shear, axial compression, and bending tests, and analyzed the experimental results to support material selection.
+- **Finite element analysis:** Used ANSYS to study the wind resistance of the arch structure and assess the effect of support-rod insertion depth.
+
+The **control system and autonomous driving/navigation functions** were handled by other team members. The complete machine was developed collaboratively.
 
 ## 1. Mechanical Structure and Working Principle
 
@@ -107,7 +122,7 @@ Fiberglass and polytetrafluoroethylene (**PTFE**) rods were evaluated as candida
 
 ### 2.2 Load–Displacement Results
 
-Each curve compares **three repeated tests** (rather than three materials). The two columns below correspond to the two candidate rod materials.
+Each curve compares **three repeated tests** (rather than three materials). The two columns below correspond to the two candidate rod materials. The images retain the original (a)–(f) labels from the project figures.
 
 | Test | Fiberglass | PTFE |
 |---|---|---|
@@ -161,4 +176,4 @@ A physical prototype was assembled and used in field trials to examine machine o
 
 ---
 
-*Project documentation: Figures and numerical results are drawn from the team's greenhouse arch insertion machine project materials and associated mechanical design and experimental study. Individual contributions should be described separately where applicable.*
+*Project documentation: Figures and numerical results are based on the team’s project materials and associated mechanical design and experimental study. Control and autonomous driving were developed by other team members.*
