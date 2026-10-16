@@ -26,7 +26,21 @@ A robotic pollination system combining a UR5 robotic arm, a customized end-effec
 
 [View Project](mechanical-design/kiwifruit-pollination-robot/README.md)
 
-### 3. Depth-Supervised 3D Gaussian Splatting
+### 3. RGB-D-Based 3D Reconstruction of Agricultural Environments
+
+*3D Mapping · Visual SLAM · RGB-D · GNSS Alignment*
+
+A large-scale agricultural reconstruction project using RGB-D observations and a self-developed Visual SLAM system. Colored point clouds are generated from depth images, fused using estimated camera poses, and aligned across datasets using GNSS to build a unified 3D map.
+
+**RGB-D · Visual SLAM · Colored Point Clouds · GNSS**
+
+<p align="center">
+  <img src="robotics-perception/peper%20reconstruction/images/2.png" alt="RGB-D agricultural environment reconstruction" width="78%">
+</p>
+
+[View Project](robotics-perception/peper%20reconstruction/README.md)
+
+### 4. Depth-Supervised 3D Gaussian Splatting
 
 *Experimental Research*
 
@@ -37,7 +51,7 @@ Investigating depth regularization for 3D Gaussian Splatting in agricultural env
 
 [View Project](robotics-perception/rgbd-3dgs/README.md)
 
-### 4. FR-SLAM — LiDAR-Inertial SLAM
+### 5. FR-SLAM — LiDAR-Inertial SLAM
 
 A C++ and ROS 2 SLAM system for LiDAR-inertial state estimation and mapping. It includes scan registration, local mapping, structural constraints, loop closure detection, and pose graph optimization, with evaluation in agricultural environments.
 
@@ -45,7 +59,7 @@ A C++ and ROS 2 SLAM system for LiDAR-inertial state estimation and mapping. It 
 
 [View FR-SLAM on GitHub](https://github.com/Fanxu2002/FR_SLAM)
 
-### 5. LiDAR-Inertial-Visual Odometry (LIVO)
+### 6. LiDAR-Inertial-Visual Odometry (LIVO)
 
 *Work in Progress*
 
