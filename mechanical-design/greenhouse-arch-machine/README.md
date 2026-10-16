@@ -30,8 +30,18 @@ The **control system and autonomous driving/navigation functions** were handled 
 
 The machine integrates a mobile chassis, a rod storage and feeding unit, a rod transfer and gripping assembly, an arch-forming guide, and a vertical insertion mechanism. Its main operating sequence is **rod feeding → pickup and gripping → arch forming → transfer → insertion into soil**. This arrangement supports repeated installation of small-tunnel arches along a planting row.
 
-<p align="center"><img src="images/jigou_white.png" alt="CAD assembly of the greenhouse arch support insertion machine" width="86%"></p>
-<p align="center"><sub>Overall CAD assembly showing the machine, planting rows, and greenhouse arches.</sub></p>
+<table align="center">
+<tr>
+<td align="center" valign="middle">
+<img src="images/jigou_white.png" alt="Overall mechanical design" width="420"><br>
+<sub>Overall CAD assembly showing the machine, planting rows, and greenhouse arches.</sub>
+</td>
+<td align="center" valign="middle">
+<img src="images/working.gif" alt="Working process demonstration" width="320"><br>
+<sub>Working process demonstration.</sub>
+</td>
+</tr>
+</table>
 
 <details>
 <summary>View components — Overall machine (1–14)</summary>
