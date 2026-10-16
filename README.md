@@ -34,6 +34,9 @@ Investigating depth regularization for 3D Gaussian Splatting in agricultural env
 
 **3D Gaussian Splatting · RGB-D · Computer Vision · 3D Reconstruction**
 
+
+[View Project](robotics-perception/rgbd-3dgs/README.md)
+
 ### 4. FR-SLAM — LiDAR-Inertial SLAM
 
 A C++ and ROS 2 SLAM system for LiDAR-inertial state estimation and mapping. It includes scan registration, local mapping, structural constraints, loop closure detection, and pose graph optimization, with evaluation in agricultural environments.
