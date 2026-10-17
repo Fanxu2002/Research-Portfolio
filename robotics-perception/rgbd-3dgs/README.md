@@ -104,6 +104,8 @@ Rendered depth from both models was compared against **D435 observed depth**, us
 
 I am extending the workflow toward **LiDAR–Inertial–Visual Odometry (LIVO)**, aiming to replace offline COLMAP initialization with continuous metric camera poses and LiDAR geometry for future 3DGS mapping.
 
+**Since RGB-D depth measurements become less accurate as distance increases, LiDAR can provide more reliable long-range geometric information, complementing RGB-D sensing and improving the geometric consistency of large-scale 3D reconstruction.**
+
 <p align="center">
   <img src="images/future-livo-3dgs-pipeline.png" alt="Proposed LIVO-to-3DGS pipeline" width="84%">
 </p>
