@@ -69,6 +69,12 @@ Currently developing a multi-sensor odometry system that integrates LiDAR, IMU, 
 
 ---
 
+## Awards & Honors
+
+Selected national and regional competition awards in robotics and 3D engineering design.
+
+[View Awards & Certificates](awards/README.md)
+
 ## About Me
 
 I am a Master's student in the Field Robotics Laboratory at Kyoto University, Japan. I earned my bachelor's degree in Mechanical Design, Manufacturing and Automation from Northwest A&F University, China.
